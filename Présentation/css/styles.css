@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Adamu';
+    src: url('Adumu.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Adamu', Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url("fond.png");
+    background-size: cover;
+    letter-spacing: 0.05em;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+header {
+    background-color: #306247c9;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #306247c9;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #306247;
+}
+
+::-webkit-scrollbar-thumb {
+background: #3bb371d7;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #297f50;
+}
